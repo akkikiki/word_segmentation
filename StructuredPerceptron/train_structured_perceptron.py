@@ -21,11 +21,11 @@ class StructuredPerceptron(object):
         self.feature_weight_dicts = [weight_unigram_bigram_dic, weight_char_len_dic]
 
         # data = open('../data/tfisf/tf_trie.txt', 'rb')
-        data = open('../data/tfisf/tf_trie_20151226.txt', 'rb')
-        self.tf_trie = pickle.load(data)
+        # data = open('../data/tfisf/tf_trie_20151226.txt', 'rb')
+        # self.tf_trie = pickle.load(data)
         # isf_data = open('../data/tfisf/isf_trie.txt', 'rb')
-        isf_data = open('../data/tfisf/isf_trie_20151226.txt', 'rb')
-        self.isf_trie = pickle.load(isf_data)
+        # isf_data = open('../data/tfisf/isf_trie_20151226.txt', 'rb')
+        # self.isf_trie = pickle.load(isf_data)
 
         flags = {}
         flags["averaged_perceptron"]  = False
